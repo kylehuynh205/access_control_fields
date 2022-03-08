@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains access_control_fields.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function access_control_fields_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the access_control_fields module.
+    case 'help.page.access_control_fields':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function access_control_fields_theme() {
+  return [
+    'access_control_fields' => [
+      'render element' => 'children',
+    ],
+  ];
+}

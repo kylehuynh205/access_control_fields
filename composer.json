@@ -1,0 +1,13 @@
+{
+    "name": "access_control_fields",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/access_control_fields",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/access_control_fields",
+        "source": "http://cgit.drupalcode.org/access_control_fields",
+    },
+}

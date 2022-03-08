@@ -1,0 +1,10 @@
+name: access_control_fields
+type: module
+description: 'My Awesome Module'
+core: 8.x
+package: Custom
+dependencies:
+  0: field_permissions
+  1: node
+  2: taxonomy
+  4: media
